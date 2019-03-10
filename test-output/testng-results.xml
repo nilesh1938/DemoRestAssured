@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6162" started-at="2019-01-30T17:14:02Z" finished-at="2019-01-30T17:14:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6162" started-at="2019-01-30T17:14:02Z" finished-at="2019-01-30T17:14:08Z">
+      <class name="getRequest.PostData">
+        <test-method status="PASS" signature="getData()[pri:0, instance:getRequest.PostData@bd1b6a]" name="getData" is-config="true" duration-ms="14" started-at="2019-01-30T17:14:02Z" finished-at="2019-01-30T17:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="testPostMethod(java.lang.String, java.lang.String)[pri:0, instance:getRequest.PostData@bd1b6a]" name="testPostMethod" duration-ms="4388" started-at="2019-01-30T17:14:02Z" data-provider="BooksData" finished-at="2019-01-30T17:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1099]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2099]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostMethod -->
+        <test-method status="PASS" signature="testPostMethod(java.lang.String, java.lang.String)[pri:0, instance:getRequest.PostData@bd1b6a]" name="testPostMethod" duration-ms="857" started-at="2019-01-30T17:14:07Z" data-provider="BooksData" finished-at="2019-01-30T17:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3099]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4099]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostMethod -->
+        <test-method status="PASS" signature="testPostMethod(java.lang.String, java.lang.String)[pri:0, instance:getRequest.PostData@bd1b6a]" name="testPostMethod" duration-ms="851" started-at="2019-01-30T17:14:07Z" data-provider="BooksData" finished-at="2019-01-30T17:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5099]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6099]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostMethod -->
+      </class> <!-- getRequest.PostData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
